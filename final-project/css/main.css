@@ -1,0 +1,209 @@
+*{
+margin: 0;
+padding: 0;
+border; 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, {
+  font-family: 'Playfair display', serif;
+}
+
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+button {
+  background-color: #F2EEEB;
+  border: #261A0F;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 20px 2px;
+  border-radius: 15px;
+}
+
+
+.logo {
+  width: 300px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.content img {
+  width: 300px;
+  height: 200px;
+  margin: 100px 100px 0px 0px;
+}
+
+
+/*======================================
+
+Header {
+*=======================================*/
+
+header {
+  text-align: left;
+  background: white;
+  padding: 100px;
+  margin: 0 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header nav ul li {
+  display: block;
+  padding: 0px;
+  margin: 0px 150px;
+  width: 60px;
+  position: relative;
+}
+
+header nav a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header nav a:active {
+  color: grey;
+}
+
+.pseudo {
+  text-align: left;
+  font-size: 24px;
+  font-style: bold;
+  padding: 90px 0;
+  margin: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*==============
+
+FORMAT
+
+*===============*/
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex-basis: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+.row {
+  margin: 10px;
+  column-count: 2;
+}
+
+.column {
+  float:none;
+  width: 50%;
+}
+
+
+/*=============
+
+ABOUT
+
+*==========*/
+
+.profile img {
+  width: 800px;
+  height: auto;
+  margin: 100px 100px 0px 0px;
+}
+
+.aboutme {
+  width: 800px;
+  height: auto;
+  margin: 50px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+
+
+/*============
+
+Services
+
+*============*/
+
+.box {
+  margin: 120px 100px 0px 0px;
+}
+
+.boxtwo {
+  margin: 50px 100px 0px 0px;
+}
+
+
+/*=============
+
+CONTACT form
+
+*========*/
+
+.form {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+
+.formname {
+  margin: 100px 0px 50px 0px;
+}
+
+.formemail {
+  margin: 100px 50px 0px 0px;
+}
+
+.formcomments {
+  margin: 50px 50px 0px 0px;
+}
+
+.label_input_wrap {
+  vertical-align: top;
+  display: block;
+}
+
+.submit {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 20px 2px;
+  border-radius: 15px;
+}
+
+input {
+  border: 2px solid black;
+  padding 100px 300px 0px 0px;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+textarea {
+  border: 2px solid black;
+  padding: 100px 300px 0px 0px;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
